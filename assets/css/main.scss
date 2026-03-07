@@ -1,0 +1,253 @@
+---
+# Only the main Sass file needs front matter.
+---
+
+@import "minimal-mistakes";
+
+/* Increase author avatar size in the profile sidebar/top card. */
+.author__avatar {
+  max-width: 200px !important;
+}
+
+.author__avatar img {
+  max-width: 100% !important;
+}
+
+.sidebar .author__name {
+  font-size: 1.55em;
+}
+
+.sidebar .author__bio {
+  font-size: 1.14em;
+  line-height: 1.6;
+}
+
+.sidebar .author__urls li,
+.sidebar .author__urls a {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+@media (min-width: 64em) {
+  .layout--single .sidebar {
+    width: calc(240px - 1em);
+  }
+
+  .author__avatar {
+    max-width: 240px !important;
+  }
+
+  /* Keep content width, but move the content column right from the sidebar. */
+  .layout--single .page {
+    width: calc(100% - 240px);
+    padding-inline-end: 240px;
+    position: relative;
+    inset-inline-start: 1.75rem;
+  }
+
+  .layout--single .page .page__inner-wrap {
+    padding-inline-start: 0;
+  }
+}
+
+/* Make the main content area wider on desktop to reduce cramped layout. */
+@media (min-width: 80em) {
+  #main,
+  .masthead__inner-wrap,
+  .page__footer footer {
+    max-width: 1700px;
+  }
+
+  .layout--single .sidebar {
+    width: calc(340px - 1em);
+  }
+
+  .author__avatar {
+    max-width: 280px !important;
+  }
+
+  .layout--single .page {
+    width: calc(100% - 340px);
+    padding-inline-end: 340px;
+    inset-inline-start: 2.5rem;
+  }
+
+  .layout--single .page .page__inner-wrap {
+    padding-inline-start: 0;
+  }
+}
+
+.home-section {
+  margin-top: 2.75rem;
+  scroll-margin-top: 5.5rem;
+}
+
+.home-section:first-of-type {
+  margin-top: 0;
+}
+
+.home-section__title {
+  font-size: clamp(1.7rem, 2vw, 2.2rem);
+  line-height: 1.15;
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.7rem;
+  border-bottom: 1px solid #e5e8ed;
+}
+
+/* Reusable two-column block for experience items: image left, text right. */
+.exp-section {
+  margin: 1.75rem 0 0;
+}
+
+.exp-section + .exp-section {
+  margin-top: 2.6rem;
+  padding-top: 1.4rem;
+  border-top: 2px solid #d9dee6;
+}
+
+.exp-section__title {
+  margin: 0 0 1.2rem;
+}
+
+.exp-block {
+  margin: 1.1rem 0 1.6rem;
+  padding: 1.1rem 1.2rem 1.25rem;
+  border: 1px solid #e4e7eb;
+  border-radius: 14px;
+  background: #fcfcfd;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.02);
+}
+
+.exp-block__title {
+  margin-top: 0;
+  margin-bottom: 0.35rem;
+}
+
+.exp-block__meta {
+  margin: 0 0 0.9rem;
+  color: #5a6168;
+  font-size: 0.96em;
+  line-height: 1.5;
+}
+
+.exp-item {
+  display: grid;
+  grid-template-columns: minmax(400px, 560px) 1fr;
+  gap: 1.5rem;
+  align-items: start;
+  margin: 0;
+}
+
+.exp-item--centered {
+  align-items: center;
+}
+
+.exp-item__media {
+  width: 100%;
+  min-width: 0;
+}
+
+.exp-item__media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #fff;
+  padding: 0.35rem;
+  border: 1px solid #e5e7ea;
+  border-radius: 8px;
+}
+
+.exp-item__content {
+  min-width: 0;
+}
+
+.exp-item__title {
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+  font-size: 1.3em;
+  line-height: 1.25;
+}
+
+.exp-item__content p {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  font-size: 0.9em;
+  line-height: 1.55;
+}
+
+.pub-entry {
+  margin: 0;
+  padding: 0 0 1rem;
+}
+
+.pub-entry + .pub-entry {
+  margin-top: 1.15rem;
+  padding-top: 1.15rem;
+  border-top: 1px solid #e4e7eb;
+}
+
+.pub-entry__title {
+  margin: 0 0 0.35rem;
+  font-size: 1.08em;
+  line-height: 1.35;
+}
+
+.pub-entry__authors,
+.pub-entry__venue {
+  margin: 0;
+  line-height: 1.55;
+}
+
+.pub-entry__authors {
+  color: #30343a;
+}
+
+.pub-entry__venue {
+  margin-top: 0.3rem;
+  color: #5a6168;
+  font-size: 0.95em;
+}
+
+.placeholder-block {
+  padding: 1.1rem 1.2rem;
+  border: 1px dashed #cfd6de;
+  border-radius: 12px;
+  background: #fbfcfd;
+}
+
+.placeholder-block__title {
+  margin: 0 0 0.35rem;
+  font-size: 1.05em;
+  font-weight: 600;
+}
+
+.placeholder-block__text {
+  margin: 0;
+  color: #4f5963;
+  line-height: 1.6;
+}
+
+@media (max-width: 47.99em) {
+  .home-section {
+    margin-top: 2rem;
+    scroll-margin-top: 4.75rem;
+  }
+
+  .exp-section + .exp-section {
+    margin-top: 2rem;
+    padding-top: 1rem;
+  }
+
+  .exp-block {
+    padding: 0.95rem 0.95rem 1rem;
+  }
+
+  .exp-item {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .exp-item__media {
+    max-width: 520px;
+  }
+}
