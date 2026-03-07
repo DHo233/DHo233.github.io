@@ -6,7 +6,7 @@
 
 /* Increase author avatar size in the profile sidebar/top card. */
 .author__avatar {
-  max-width: 165px !important;
+  max-width: 155px !important;
 }
 
 .author__avatar img {
@@ -14,35 +14,40 @@
 }
 
 .sidebar .author__name {
-  font-size: 1.32em;
+  font-size: 1.25em;
 }
 
 .sidebar .author__bio {
-  font-size: 0.96em;
+  font-size: 0.92em;
   line-height: 1.6;
 }
 
 .sidebar .author__urls li,
 .sidebar .author__urls a {
-  font-size: 0.9em;
+  font-size: 0.86em;
   line-height: 1.5;
+}
+
+.masthead__menu-item,
+.site-title {
+  font-size: 0.95em;
 }
 
 @media (min-width: 64em) {
   .layout--single .sidebar {
-    width: calc(205px - 1em);
+    width: calc(195px - 1em);
   }
 
   .author__avatar {
-    max-width: 200px !important;
+    max-width: 188px !important;
   }
 
   /* Keep content width, but move the content column right from the sidebar. */
   .layout--single .page {
-    width: calc(100% - 205px);
-    padding-inline-end: 205px;
+    width: calc(100% - 195px);
+    padding-inline-end: 195px;
     position: relative;
-    inset-inline-start: 1.3rem;
+    inset-inline-start: 1.2rem;
   }
 
   .layout--single .page .page__inner-wrap {
@@ -51,7 +56,7 @@
 
   .page__content p,
   .page__content li {
-    font-size: 0.92em;
+    font-size: 0.9em;
   }
 }
 
@@ -60,21 +65,21 @@
   #main,
   .masthead__inner-wrap,
   .page__footer footer {
-    max-width: 1520px;
+    max-width: 1480px;
   }
 
   .layout--single .sidebar {
-    width: calc(270px - 1em);
+    width: calc(250px - 1em);
   }
 
   .author__avatar {
-    max-width: 230px !important;
+    max-width: 215px !important;
   }
 
   .layout--single .page {
-    width: calc(100% - 270px);
-    padding-inline-end: 270px;
-    inset-inline-start: 1.7rem;
+    width: calc(100% - 250px);
+    padding-inline-end: 250px;
+    inset-inline-start: 1.5rem;
   }
 
   .layout--single .page .page__inner-wrap {
@@ -92,7 +97,7 @@
 }
 
 .home-section__title {
-  font-size: clamp(1.42rem, 1.55vw, 1.82rem);
+  font-size: clamp(1.34rem, 1.42vw, 1.7rem);
   line-height: 1.15;
   margin-bottom: 1.2rem;
   padding-bottom: 0.7rem;
@@ -112,7 +117,7 @@
 
 .exp-section__title {
   margin: 0 0 1.2rem;
-  font-size: 1.28rem;
+  font-size: 1.18rem;
 }
 
 .exp-block {
@@ -127,20 +132,20 @@
 .exp-block__title {
   margin-top: 0;
   margin-bottom: 0.35rem;
-  font-size: 1.08rem;
+  font-size: 1rem;
 }
 
 .exp-block__meta {
   margin: 0 0 0.9rem;
   color: #5a6168;
-  font-size: 0.9em;
+  font-size: 0.86em;
   line-height: 1.5;
 }
 
 .exp-item {
   display: grid;
-  grid-template-columns: minmax(280px, 400px) 1fr;
-  gap: 1.2rem;
+  grid-template-columns: minmax(260px, 360px) 1fr;
+  gap: 1rem;
   align-items: start;
   margin: 0;
 }
@@ -178,7 +183,7 @@
 .exp-item__content p {
   margin-top: 0;
   margin-bottom: 0.75rem;
-  font-size: 0.82em;
+  font-size: 0.79em;
   line-height: 1.55;
 }
 
@@ -195,7 +200,7 @@
 
 .pub-entry__title {
   margin: 0 0 0.35rem;
-  font-size: 1.02em;
+  font-size: 0.98em;
   line-height: 1.35;
 }
 
@@ -212,7 +217,7 @@
 .pub-entry__venue {
   margin-top: 0.3rem;
   color: #5a6168;
-  font-size: 0.9em;
+  font-size: 0.86em;
 }
 
 .placeholder-block {

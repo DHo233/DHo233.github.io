@@ -41,6 +41,9 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "MIIS@CMU LTI<br>Ex Intern@ByteDance"
   links:
+    - label: "Pittsburgh, PA"
+      icon: "fas fa-fw fa-map-marker-alt"
+      url: "https://maps.google.com/?q=Pittsburgh,+PA"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:xuhongh@andrew.cmu.edu"
@@ -50,12 +53,18 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/DHo233"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=bSn7OPsAAAAJ&hl=zh-CN"
     - label: "CV"
       icon: "fas fa-fw fa-file-pdf"
       url: "/assets/resume/CV_USInternMLE_Full.pdf"
 
 footer:
   links:
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=bSn7OPsAAAAJ&hl=zh-CN"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/xuhong-he/"
