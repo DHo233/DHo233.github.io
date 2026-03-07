@@ -27,6 +27,7 @@ exclude:
   - _posts/2010-02-05-post-quote.md
   - _posts/2010-03-07-post-link.md
   - _posts/2019-04-18-welcome-to-jekyll.md
+  - assets/resume/CV_USInternMLE_Full.pdf
 
 plugins:
   - jekyll-paginate
@@ -56,9 +57,6 @@ author:
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=bSn7OPsAAAAJ&hl=zh-CN"
-    - label: "CV"
-      icon: "fas fa-fw fa-file-pdf"
-      url: "/assets/resume/CV_USInternMLE_Full.pdf"
 
 footer:
   links:
