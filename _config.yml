@@ -5,6 +5,8 @@ description: >-
   Xuhong He's personal homepage: information retrieval, LLM agents, and multilingual evaluation.
 minimal_mistakes_skin: default
 search: false
+atom_feed:
+  hide: true
 
 # Build settings
 markdown: kramdown
@@ -58,13 +60,13 @@ author:
       url: "https://github.com/DHo233"
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
-      url: "https://scholar.google.com/citations?user=bSn7OPsAAAAJ&hl=zh-CN"
+      url: "https://scholar.google.com/citations?user=bSn7OPsAAAAJ&hl"
 
 footer:
   links:
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
-      url: "https://scholar.google.com/citations?user=bSn7OPsAAAAJ&hl=zh-CN"
+      url: "https://scholar.google.com/citations?user=bSn7OPsAAAAJ&hl"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/xuhong-he/"

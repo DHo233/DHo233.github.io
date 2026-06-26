@@ -40,7 +40,20 @@ Before CMU, I completed dual undergraduate degrees from **Zhejiang University** 
   <h3 class="exp-section__title">Research Experience</h3>
 
   <div class="exp-block">
-    <h4 class="exp-block__title"><a href="https://ntcir-tot.github.io/">Multilingual Simulation of Tip-of-the-Tongue (ToT) Queries</a></h4>
+    <h4 class="exp-block__title"><a href="https://arxiv.org/abs/2606.19911">Multi-Agent Transactive Memory (MATM)</a></h4>
+    <p class="exp-block__meta">Jan 2026 - Present<br>Areas: LLM Agents, Information Retrieval, Memory, Reranking<br>Advisor: <a href="https://841.io">Prof. Fernando Diaz</a> (CMU & Google)</p>
+    <div class="exp-item exp-item--centered">
+      <div class="exp-item__media">
+        <img src="/assets/images/matm.png" alt="Multi-Agent Transactive Memory (MATM) system overview">
+      </div>
+      <div class="exp-item__content">
+        <p>Developed <strong>MATM</strong>, a population-level memory system that lets LLM agents retrieve and reuse <strong>trajectory-based procedural knowledge</strong> from prior agents in <strong>ALFWorld</strong> and <strong>WebArena</strong>. Built state-aware indexing and reranking over large agent-generated trajectory repositories, improving downstream task success and step efficiency without requiring joint training or centralized coordination.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="exp-block">
+    <h4 class="exp-block__title"><a href="https://arxiv.org/abs/2604.21096">Multilingual Simulation of Tip-of-the-Tongue (ToT) Queries</a></h4>
     <p class="exp-block__meta">Aug 2025 - Present<br>Areas: LLMs, Information Retrieval, Evaluation<br>Advisor: <a href="https://841.io">Prof. Fernando Diaz</a> (CMU & Google)</p>
     <div class="exp-item exp-item--centered">
       <div class="exp-item__media">
@@ -74,9 +87,15 @@ Before CMU, I completed dual undergraduate degrees from **Zhejiang University** 
 {: .home-section__title}
 
 <div class="pub-entry">
-  <h4 class="pub-entry__title">Multilingual and Domain-Agnostic Tip-of-the-Tongue Query Generation for Simulated Evaluation</h4>
-  <p class="pub-entry__authors"><strong>Xuhong He</strong>, To-Eun Kim, Fernando Diaz, Maik Froebe, Jaime Arguello, Bhaskar Mitra.</p>
-  <p class="pub-entry__venue">Submitted to SIGIR 2026</p>
+  <h4 class="pub-entry__title"><a href="https://arxiv.org/abs/2606.19911">Multi-Agent Transactive Memory</a></h4>
+  <p class="pub-entry__authors">To Eun Kim, <strong>Xuhong He</strong>, Dishank Jain, Ambuj Agrawal, Negar Arabzadeh, Fernando Diaz.</p>
+  <p class="pub-entry__venue">arXiv preprint, 2026</p>
+</div>
+
+<div class="pub-entry">
+  <h4 class="pub-entry__title"><a href="https://arxiv.org/abs/2604.21096">Multilingual and Domain-Agnostic Tip-of-the-Tongue Query Generation for Simulated Evaluation</a></h4>
+  <p class="pub-entry__authors"><strong>Xuhong He</strong>, To Eun Kim, Maik Fr&ouml;be, Jaime Arguello, Bhaskar Mitra, Fernando Diaz.</p>
+  <p class="pub-entry__venue">SIGIR 2026; NTCIR ToT Track</p>
 </div>
 
 <div class="pub-entry">

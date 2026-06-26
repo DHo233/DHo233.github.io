@@ -9,3 +9,5 @@ main:
     url: /#blog
   - title: "Service"
     url: /#service
+  - title: "Education"
+    url: /#education
