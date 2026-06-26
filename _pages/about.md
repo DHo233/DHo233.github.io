@@ -41,7 +41,7 @@ Before CMU, I completed dual undergraduate degrees from **Zhejiang University** 
 
   <div class="exp-block">
     <h4 class="exp-block__title"><a href="https://arxiv.org/abs/2606.19911">Multi-Agent Transactive Memory (MATM)</a></h4>
-    <p class="exp-block__meta">Jan 2026 - Present<br>Areas: LLM Agents, Information Retrieval, Memory, Reranking<br>Advisor: <a href="https://841.io">Prof. Fernando Diaz</a> (CMU & Google)</p>
+    <p class="exp-block__meta">Jan 2026 - May 2026<br>Areas: LLM Agents, Information Retrieval, Memory, Reranking<br>Advisor: <a href="https://841.io">Prof. Fernando Diaz</a> (CMU & Google)</p>
     <div class="exp-item exp-item--centered">
       <div class="exp-item__media">
         <img src="/assets/images/matm.png" alt="Multi-Agent Transactive Memory (MATM) system overview">
@@ -88,8 +88,8 @@ Before CMU, I completed dual undergraduate degrees from **Zhejiang University** 
 
 <div class="pub-entry">
   <h4 class="pub-entry__title"><a href="https://arxiv.org/abs/2606.19911">Multi-Agent Transactive Memory</a></h4>
-  <p class="pub-entry__authors">To Eun Kim, <strong>Xuhong He</strong>, Dishank Jain, Ambuj Agrawal, Negar Arabzadeh, Fernando Diaz.</p>
-  <p class="pub-entry__venue">arXiv preprint, 2026</p>
+  <p class="pub-entry__authors">To Eun Kim*, <strong>Xuhong He*</strong>, Dishank Jain*, Ambuj Agrawal, Negar Arabzadeh, Fernando Diaz.</p>
+  <p class="pub-entry__venue">Submitted to EMNLP 2026</p>
 </div>
 
 <div class="pub-entry">
