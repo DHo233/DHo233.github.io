@@ -10,6 +10,8 @@ title: null
 
 I am **Xuhong He (贺旭鸿)**, a Master's student in **Intelligent Information Systems (MIIS)** at **Carnegie Mellon University**, where I currently work with **[Prof. Fernando Diaz](https://841.io)** on **information retrieval**, **LLM agents**, and **query simulation/evaluation**.
 
+Most recently, I was an **AI Research Scientist Intern at Foundation AI (Cisco)**, working on **looped Transformers for reasoning**.
+
 Before CMU, I completed dual undergraduate degrees from **Zhejiang University** and the **University of Illinois Urbana-Champaign**. I previously collaborated with **[Prof. Zhiting Hu](https://zhiting.ucsd.edu)** at **University of California San Diego** on **SimWorld**, a UE5-based simulator for autonomous agents in physical and social worlds. I also worked as a software engineer intern at **ByteDance** on large-scale search infrastructure and neural sparse retrieval.
 
 </div>
@@ -21,6 +23,14 @@ Before CMU, I completed dual undergraduate degrees from **Zhejiang University** 
 
 <section class="exp-section" id="internship-experience">
   <h3 class="exp-section__title">Internship Experience</h3>
+
+  <div class="exp-block">
+    <h4 class="exp-block__title">Foundation AI (Cisco)</h4>
+    <p class="exp-block__meta"><strong>AI Research Scientist Intern</strong><br>May 2026 - Aug 2026</p>
+    <div class="exp-item__content">
+      <p>Conducted research on <strong>looped Transformers</strong>, with a focus on reasoning and efficient model training.</p>
+    </div>
+  </div>
 
   <div class="exp-block">
     <h4 class="exp-block__title">ByteDance</h4>
@@ -89,7 +99,7 @@ Before CMU, I completed dual undergraduate degrees from **Zhejiang University** 
 <div class="pub-entry">
   <h4 class="pub-entry__title"><a href="https://arxiv.org/abs/2606.19911">Multi-Agent Transactive Memory</a></h4>
   <p class="pub-entry__authors">To Eun Kim*, <strong>Xuhong He*</strong>, Dishank Jain*, Ambuj Agrawal, Negar Arabzadeh, Fernando Diaz.</p>
-  <p class="pub-entry__venue">Submitted to EMNLP 2026</p>
+  <p class="pub-entry__venue">Submitted to EACL 2027</p>
 </div>
 
 <div class="pub-entry">
@@ -136,7 +146,8 @@ Before CMU, I completed dual undergraduate degrees from **Zhejiang University** 
 {: .home-section__title}
 
 - **Co-organizer**, [NTCIR-19 Tip-of-the-Tongue (ToT) Track](https://ntcir-tot.github.io) (2026)
-- **Program Committee Member / Reviewer**, [SIGIR 2026 (Resources Paper Track)](https://sigir2026.org/en-AU/pages/submissions/resources-track)
+- **Reviewer**, [ICLR 2027](https://iclr.cc/Conferences/2027)
+- **Reviewer**, [SIGIR 2026 (Resources Paper Track)](https://sigir2026.org/en-AU/pages/submissions/resources-track)
 
 </div>
 

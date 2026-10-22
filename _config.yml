@@ -24,6 +24,7 @@ include:
   - _pages
 
 exclude:
+  - .local-backups
   - _posts/2010-01-07-post-modified.md
   - _posts/2010-01-07-post-standard.md
   - _posts/2010-01-08-post-chat.md
@@ -44,7 +45,7 @@ plugins:
 author:
   name   : "Xuhong He"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "MIIS@CMU LTI<br>Ex Intern@ByteDance"
+  bio    : "MIIS@CMU LTI<br>Ex Intern@Foundation AI (Cisco)<br>Ex Intern@ByteDance"
   links:
     - label: "Pittsburgh, PA"
       icon: "fas fa-fw fa-map-marker-alt"
